@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'MullerRegular';
+    src: url('Muller-regular/MullerRegular.woff') format('woff'),
+      url('Muller-regular/MullerRegular.ttf') format('ttf');
+    font-style: normal;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'MullerExtraBold';
+    src: url('Muller-ExtraBold/MullerExtraBold.woff') format('woff'),
+      url('Muller-ExtraBold/MullerExtraBold.ttf') format('ttf');
+    font-style: normal;
+    font-display: swap;
+  }

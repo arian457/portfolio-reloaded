@@ -1,0 +1,94 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "MullerRegular", "Noto Sans Display", sans-serif;
+  background-color: var(--bg-gray);
+  
+  /* Colors */
+  --primary: #019380;
+  --primary-active: #5bd2bc93;
+  --secondary: #111312;
+  --secondary-faded: #111312a4;
+  --info: #258ff3;
+  --success: #00d47a;
+  --danger: #fc3343;
+  --caution: #ffc42f;
+  --bg-white: #f9f6f7;
+  --bg-gray: #e9e9e9;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+nav {
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+.nav-menu {
+  justify-content: space-around;
+}
+/* flex's diplays */
+.row-xl {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.row-l {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+.row-m {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+.row-s {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+.row-max {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+}
+/* ------------------------------- */
+.col-xl {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.col-l {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.col-m {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.col-s {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.col-max {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+/* ------------------------------- */
+/* Animations */
+
+.ease{
+  transition: ease 0.1s;
+}
