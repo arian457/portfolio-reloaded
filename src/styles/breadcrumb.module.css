@@ -1,0 +1,8 @@
+.breadCrumb {
+    color:var(--secondary-faded);
+    font-family:"MullerExtraBold";
+}
+.breadCrumb a:hover{
+    transition:ease-in 0.1s;
+    color:var(--primary)
+}
